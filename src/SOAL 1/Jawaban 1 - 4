@@ -1,0 +1,57 @@
+Soal 1
+NO1.//Variabel dalam Kotlin
+Variabel adalah tempat penyimpanan yang digunakan untuk menyimpan nilai-nilai data. Dalam Kotlin, ada dua jenis variabel utama, yaitu var dan val.
+-var (Variable):
+var digunakan untuk mendeklarasikan variabel yang nilainya dapat diubah (mutable).
+-val (Value):
+val digunakan untuk mendeklarasikan variabel yang nilainya tidak dapat diubah setelah diinisialisasi (immutable).
+Tipe Data dalam Kotlin
+//Tipe Data Numerik:
+-Int: Bilangan bulat 32-bit.
+-Double: Bilangan desimal presisi ganda (64-bit).
+//Tipe Data Karakter dan String:
+-Char: Karakter tunggal.
+-String: Sekumpulan karakter.
+//Tipe Data Boolean:
+-Boolean: Nilai benar atau salah.
+//Tipe Data Koleksi:
+-Array: Koleksi data dengan ukuran tetap.
+-List: Koleksi data yang tidak bisa diubah (immutable).
+//MutableList: Koleksi data yang bisa diubah.
+-Tipe Data Null:
+Untuk mengizinkan null, tambahkan ?.
+
+NO2. -if Expression
+  Deskripsi: Digunakan untuk mengeksekusi blok kode berdasarkan kondisi yang diberikan
+-when Expression
+Deskripsi: Digunakan sebagai alternatif dari if-else if, terutama untuk banyak kondisi. Mirip dengan switch pada bahasa pemrograman lain.
+-for Loop
+Deskripsi: Digunakan untuk mengulangi eksekusi blok kode untuk setiap elemen dalam sebuah koleksi atau rentang.
+-while Loop
+Deskripsi: Digunakan untuk mengulangi eksekusi blok kode selama kondisi yang diberikan benar.
+-do-while Loop
+Deskripsi: Mirip dengan while, tetapi blok kode dieksekusi setidaknya sekali sebelum kondisi diperiksa.
+///Perbedaan Utama:
+-if vs when:
+if digunakan untuk kondisi sederhana atau tunggal.
+when digunakan untuk multiple kondisi atau kondisi yang lebih kompleks, lebih mudah dibaca daripada banyak if-else if.
+-for vs while vs do-while:
+for digunakan untuk iterasi koleksi atau rentang yang sudah diketahui.
+while digunakan ketika kondisi perlu diperiksa sebelum iterasi.
+do-while digunakan ketika setidaknya satu iterasi harus dijalankan sebelum kondisi diperiksa.
+NO3.  Dalam bahasa pemrograman Kotlin, function (fungsi) adalah blok kode yang dirancang untuk   melakukan tugas tertentu.
+ Fungsi memungkinkan Anda untuk mengelompokkan kode yang dapat dipanggil berulang kali di berbagai tempat dalam program Anda,
+ sehingga kode menjadi lebih modular dan lebih mudah dipelihara.
+NO4. Function generic dalam Kotlin adalah fungsi yang dapat bekerja dengan berbagai tipe data.
+ brfungsi untuk menulis fungsi yang lebih fleksibel dan dapat digunakan kembali tanpa harus menentukan tipe data yang spesifik
+ karena menggunakan parameter tipe (type parameter), yang bertindak sebagai pengganti untuk tipe data yang sebenarnya.
+ sehingga kita dapat meminimalkan kode yang berulang dan menjadikan penggunaannya lebih mudah.
+
+/// Perbedaan dengan function Biasa
+  -function:
+    function memiliki parameter dengan tipe data yang spesifik.
+    digunakan ketika tipe data yang diterima dan dikembalikan sudah diketahui dan tidak akan berubah.
+
+  -function Generic:
+    functiongeneric dapat bekerja dengan berbagai tipe data tanpa harus menentukan tipe data tersebut sebelumnya.
+    Lebih fleksibel dan dapat digunakan kembali untuk tipe data yang berbeda.
